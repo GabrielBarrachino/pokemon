@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+button{
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    &[disabled]{
+        cursor: not-allowed;
+    }
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    display: block;
+}
